@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{homepage.title.label}"></title>
+    <link rel="stylesheet" href="/css/homepage.css">
+</head>
+<body>
+<!--picture and logo-->
+<a th:href="@{'/'}">
+    <img class ="logo" src="/img/logo1.png">
+</a>
+<img class="image" src="/img/palm.jpg">
+
+<nav>
+    <a class="btn_menufirst" th:href="@{'/home'}"><span th:text="#{nav.a.home.label}"></span> </a>
+    <a class="btn_menusecond" th:href="@{'/ships'}"><span th:text="#{nav.a.ships.label}"></span> </a>
+    <a class="btn_menuthird" th:href="@{'/itinerary'}"><span th:text="#{nav.a.itinerary.label}"></span> </a>
+    <a class="btn_menuforth" th:href="@{'/login'}"><span th:text="#{nav.a.login.label}"></span> </a>
+    <a class="btn_menufifth" th:href="@{'/logout'}"><span th:text="#{nav.a.logout.label}"></span> </a>
+    <a class="btn_menusixth" th:href="@{'/register'}"><span th:text="#{nav.a.register.label}"></span> </a>
+
+</nav>
+
+</body>
+</html>

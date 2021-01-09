@@ -1,0 +1,49 @@
+body {
+  background-image:url("static/img/palm.jpg");
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.logo{
+  width: 170px;
+ height: 120px;
+  position: relative;
+  top: 0px;
+  left:0px;
+}
+.image{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.btn_menufirst{
+  position: absolute;
+  top: 10px;
+  right: 250px;
+
+}
+.btn_menusecond{
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+.btn_menuthird{
+  position: absolute;
+  top: 10px;
+  right: 130px;
+}
+.btn_menuforth{
+  position: absolute;
+  top: 11px;
+  right: 80px;
+}
+.btn_menufifth{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.btn_sixth{
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
